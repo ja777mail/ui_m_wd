@@ -6,7 +6,7 @@ import ApiDemosScreen from "../../../screens/android/apiDemos.screen";
 
 describe("Sample tests", () => {
 	before(async () => {
-		await driver.pause(5000);
+		// await driver.pause(3000);
 		console.log("\nSample tests - BEFORE HOOK\n");
 	});
 	after(() => {

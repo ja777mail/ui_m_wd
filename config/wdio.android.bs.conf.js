@@ -29,7 +29,7 @@ baseConfig.capabilities = [
 		"appium:platformVersion": "15.0", // 12.0
 		"appium:automationName": "UiAutomator2",
 		// "appium:app": path.join(process.cwd(), "app/android/ApiDemos-debug.apk"),
-		"appium:app": "bs://6023b2679af83d5f6f7f1d253d82006d38bbb8d3",
+		"appium:app": "bs://f0cf2db91b09f9c6d27279e69d72a926c48bcc65",
 	},
 ];
 //
