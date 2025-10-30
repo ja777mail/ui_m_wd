@@ -5,7 +5,8 @@
 import ApiDemosScreen from "../../../screens/android/apiDemos.screen";
 
 describe("Sample tests", () => {
-	before(() => {
+	before(async () => {
+		await driver.pause(5000);
 		console.log("\nSample tests - BEFORE HOOK\n");
 	});
 	after(() => {
@@ -18,7 +19,7 @@ describe("Sample tests", () => {
 		console.log("\nSample tests - AFTER EACH HOOK\n");
 	});
 
-	it.skip("Screen object test", async () => {
+	it.only("Screen object test", async () => {
 		const textList = await ApiDemosScreen.textList;
 		console.log("Text elements found:", textList.length);
 	});
