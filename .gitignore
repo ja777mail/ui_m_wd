@@ -1,5 +1,6 @@
 
 # Игнорировать все файлы с расширением .log
+logs/
 *.log
 
 # Игнорировать Node
@@ -23,3 +24,4 @@ node_modules/
 
 # others
 keys.txt
+wdio.conf.00

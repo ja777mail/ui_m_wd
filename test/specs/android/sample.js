@@ -1,6 +1,23 @@
-import ApiDemosScreen from "../../screens/android/apiDemos.screen";
+// npx wdio
+// npx wdio wdio.conf.js
+// npx wdio config/wdio.android.conf.js
+
+import ApiDemosScreen from "../../../screens/android/apiDemos.screen";
 
 describe("Sample tests", () => {
+	before(() => {
+		console.log("\nSample tests - BEFORE HOOK\n");
+	});
+	after(() => {
+		console.log("\nSample tests - AFTER HOOK\n");
+	});
+	beforeEach(() => {
+		console.log("\nSample tests - BEFORE EACH HOOK\n");
+	});
+	afterEach(() => {
+		console.log("\nSample tests - AFTER EACH HOOK\n");
+	});
+
 	it.skip("Screen object test", async () => {
 		const textList = await ApiDemosScreen.textList;
 		console.log("Text elements found:", textList.length);
