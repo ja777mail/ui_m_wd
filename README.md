@@ -1,4 +1,4 @@
-# 📱 UI & Mobile Testing Automation Demo
+# 📱 Mobile UI Testing Automation Demo
 
 _(WebdriverIO + Appium + GitHub Actions)_
 
@@ -10,14 +10,14 @@ _(WebdriverIO + Appium + GitHub Actions)_
 
 Портфолио-проект тестировщика, демонстрирующий:
 
-- автоматизацию **веб- и мобильных UI-тестов** с помощью **WebdriverIO** и **Appium**
+- автоматизацию **мобильных и веб UI-тестов** с помощью **WebdriverIO** и **Appium**
 - использование архитектуры **Page Object Model (Screen Objects)** для структурирования тестов
 - настройку **CI/CD-интеграции** через **GitHub Actions**
-- выполнение **end-to-end сценариев** в браузере и на мобильных устройствах
+- выполнение **end-to-end сценариев** на мобильных устройствах
 - навыки проектирования, написания и запуска UI-тестов
 - деплой тестового проекта на **GitHub Pages**
 
-📂 Репозиторий показывает реальные сценарии выполнения UI и мобильных тестов при каждом `push`.  
+📂 Репозиторий показывает реальные сценарии выполнения тестов мобильного андроид-приложения при каждом `push`.  
 🔗 **Результаты последних запусков:**  
 👉 [Run WebdriverIO Tests — GitHub Actions](https://github.com/ja777mail/ui_m_wd/actions/workflows/ci_webdriver.yml)
 
@@ -30,14 +30,14 @@ _(WebdriverIO + Appium + GitHub Actions)_
 
 Portfolio project demonstrating tester’s practical skills in:
 
-- **UI and Mobile automation** using **WebdriverIO** + **Appium**
+- **Mobile UI automation** using **WebdriverIO** + **Appium**
 - applying the **Page Object Model (Screen Objects)** design pattern for scalable test structure
 - Continuous integration setup with **GitHub Actions**
-- Cross-platform **end-to-end testing** for web and mobile
+- Cross-platform **end-to-end testing** for mobile devices
 - Designing, maintaining, and executing automated test suites
 - Deploying demo test projects via **GitHub Pages**
 
-📂 Repository runs real automated tests (web + mobile) on every commit.  
+📂 Repository runs real automated tests mobile android app on every commit.  
 🔗 **Latest test results:**  
 👉 [Run WebdriverIO Tests — GitHub Actions](https://github.com/ja777mail/ui_m_wd/actions/workflows/ci_webdriver.yml)
 
@@ -77,8 +77,8 @@ Portfolio project demonstrating tester’s practical skills in:
 
 3. **WebdriverIO Configuration**
 
-   - Конфигурационный файл `wdio.conf.js` управляет запуском тестов
-   - Поддерживает профили для браузерных и мобильных тестов
+   - Конфигурационный файл `wdio.android.bs.conf.js` управляет запуском тестов
+   - Поддерживает профили для мобильных тестов
    - Использует паттерн **Page Object Model (Screen Objects)** для организации логики экранов
    - Логирование и отчётность доступны в консоли и GitHub Actions
 
