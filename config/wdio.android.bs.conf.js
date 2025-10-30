@@ -4,8 +4,8 @@ import { config as baseConfig } from "./wdio.shared.conf.js";
 // ========================
 // Browserstack Credentials
 // ========================
-baseConfig.user = process.env.BS_USER || "dah_NUrSzG";
-baseConfig.key = process.env.BS_KEY || "Ku3sw4A8o9DZyRxpBxoi";
+baseConfig.user = process.env.BS_USER;
+baseConfig.key = process.env.BS_KEY;
 //
 // // ====================
 // // Runner Configuration
